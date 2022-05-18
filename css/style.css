@@ -1,0 +1,37 @@
+nav {
+    background-color: #000000;
+    height: 70px;
+    border-bottom: 1px solid #333333;
+}
+
+nav div:last-child {
+    height: 100%;
+}
+
+body {
+    height: 100vh;
+    background-image: url('https://s.tmimgcdn.com/scr/1200x750/126600/public-transport-station-illustration_126630-original.jpg');
+    background-blend-mode: luminosity;
+    background-size: cover;
+    background-position: center;
+}
+
+.cd-card {
+    border: 1px solid #cbcbcb;
+    border-radius: 1rem;
+    background-color: #f5f5f5;;
+}
+
+.cd-card i {
+    font-size: 70px;
+}
+
+.cd-input-container {
+    display: inline-block;
+    padding: 10px 50px;
+    width: 250px;
+    background-color: #f5f1a2;
+    border-radius: 1.5rem;
+    color: #333333s;
+    box-shadow: 0px 0px 5px #5f5f5f;
+}
