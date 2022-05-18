@@ -25,9 +25,9 @@ userAge.innerHTML = `Età: ${userAgeCalc} anni`;
 userDistance.innerHTML = `Distanza: ${userKilometres} km`;
 
 if (userAgeCalc < 18) {
-    userPrice.innerHTML = `Prezzo: ${ticketPriceYoung} €`;
+    userPrice.innerHTML = `Prezzo: ${ticketPriceYoung.toFixed(2)} €`;
 } else if (userAgeCalc >= 65) {
-    userPrice.innerHTML = `Prezzo: ${ticketPriceSenior} €`;
+    userPrice.innerHTML = `Prezzo: ${ticketPriceSenior.toFixed(2)} €`;
 } else {
-    userPrice.innerHTML = `Prezzo: ${ticketPriceFull} €`;
+    userPrice.innerHTML = `Prezzo: ${ticketPriceFull.toFixed(2)} €`;
 }
