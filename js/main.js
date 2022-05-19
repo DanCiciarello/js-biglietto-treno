@@ -1,8 +1,8 @@
 // User declares year of birth
-const userYearOfBirth = prompt("Insert your year of birth");
+const userYearOfBirth = parseInt(prompt("Insert your year of birth"));
 
 // User declares distance
-const userKilometres = prompt("Insert the kilometres that you need to do");
+const userKilometres = parseInt(prompt("Insert the kilometres that you need to do"));
 
 // Create a variable with current year
 const currentDate = new Date();
